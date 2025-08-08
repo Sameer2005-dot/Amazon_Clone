@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.logo {
+    background-image: url("Amazon-Logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+    
+}
