@@ -9,10 +9,12 @@
     background-color: #0f1111;
     color: white;
     display: flex;
+    /* justify-content: space-evenly; */
     align-items: center;
 }
 
-/* Here I am styling 1st box */
+/* Here I am styling Box1*/
+
 .nav-logo {
     height: 50px;
     width: 100px;
@@ -35,6 +37,7 @@
 }
 
 /* Here I styling Box2 */
+
 .nav-address {
     height: 50px;
     width: 100px;
@@ -56,4 +59,39 @@
 .add-icon {
     display: flex;
     align-items: center;
+}
+
+/* Here I styling Box3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eb911d;
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
 }
