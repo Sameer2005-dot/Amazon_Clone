@@ -8,18 +8,52 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
+/* Here I am styling 1st box */
 .nav-logo {
     height: 50px;
     width: 100px;
-    padding-top: 10px;
 }
 
 .logo {
-    background-image: url("Amazon-Logo.png");
+    background-image: url("/Pictures/Amazon-Logo.png");
     background-size: cover;
     height: 30px;
     width: 100%;
-    
+    margin-top: 10px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Here I styling Box2 */
+.nav-address {
+    height: 50px;
+    width: 100px;
+}
+
+.add-first {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.add-second {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 0px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
 }
