@@ -9,7 +9,7 @@
     background-color: #0f1111;
     color: white;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -92,6 +92,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    background-color: #febd68;
+    color: #0f1111;
     font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* Here I styling Box4 */
+.nav-signin{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-return {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+/* Here I styling Box5 */
+
+.nav-cart {
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart p {
+    padding-top: 20px;
+    font-weight: 700;
 }
